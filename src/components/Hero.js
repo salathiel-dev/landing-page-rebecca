@@ -5,16 +5,12 @@ function Hero() {
         <section
             id="hero"
             className="bg-cover bg-center h-screen text-white flex flex-col items-center justify-center"
-            style={{ backgroundImage: 'url("/public/assets/capa.jpeg")' }}
+            style={{
+                backgroundImage: 'url("../assets/capa.jpeg")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+            }}
         >
-            <div className="mb-6">
-                <img
-                    className="w-32 h-32 rounded-full border-4 border-white shadow-lg"
-                    src="/public/assets/perfil.jpeg"
-                    alt="Foto de Perfil"
-                />
-            </div>
-
             <div className="text-center bg-black bg-opacity-50 p-8 rounded-lg animate-fadeIn">
                 <h2 className="text-5xl font-bold mb-4">Bem-vindo à minha Landing Page</h2>
                 <p className="text-lg mb-6">Sou uma promoter de vendas focada em atendimento ao cliente</p>

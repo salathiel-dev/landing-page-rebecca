@@ -14,12 +14,14 @@ function App() {
     return (
         <div className="font-sans">
             <Header />
-            <Hero />
-            <About />
-            <Experience />
-            <Projects />
-            <Contact />
-            <Footer />
+            <div>
+                <Hero />
+                <About />
+                <Experience />
+                <Projects />
+                <Contact />
+                <Footer />
+            </div>
         </div>
     );
 }

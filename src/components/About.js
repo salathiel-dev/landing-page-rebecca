@@ -1,9 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 function About() {
     return (
-        <section id="about" className="py-20 bg-pink-50">
+        <section id="about" className="min-h-screen py-20 bg-pink-50 flex items-center">
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 <motion.img
                     src="../assets/perfil.jpeg"

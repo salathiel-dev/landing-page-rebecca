@@ -2,10 +2,10 @@ import React from "react";
 
 function Experience() {
     return (
-        <section id="experience" className="bg-white py-20">
+        <section id="experience" className="min-h-screen bg-white py-20 flex items-center">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-8">Experiência</h2>
-                <div className="space-y-12 text-gray-800">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="bg-gray-100 p-6 rounded-lg shadow-md">
                         <h3 className="text-xl font-semibold">COBRADOR INTERNO</h3>
                         <p className="text-gray-700">Editech Play Comércios de Livros Ltda, Birigui - SP</p>
