@@ -1,5 +1,7 @@
 import React from 'react';
-
+import 'tailwindcss/tailwind.css';
+import './index.css';
+import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -9,17 +11,17 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-      <div className="App bg-gray-100 text-gray-900">
-        <Header />
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
-  );
+    return (
+        <div className="font-sans">
+            <Header />
+            <Hero />
+            <About />
+            <Experience />
+            <Projects />
+            <Contact />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
